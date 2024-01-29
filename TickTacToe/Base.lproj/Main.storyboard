@@ -134,8 +134,8 @@
                                     <constraint firstAttribute="width" secondItem="c70-lB-sd4" secondAttribute="height" multiplier="1:1" id="hai-hR-O6u"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Следующий" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3CI-cb-YsJ">
-                                <rect key="frame" x="121.66666666666669" y="107" width="150" height="28.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Очередь" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3CI-cb-YsJ">
+                                <rect key="frame" x="143" y="107" width="107" height="28.666666666666657"/>
                                 <color key="tintColor" red="0.2879379735" green="0.20002937109999999" blue="0.22434486870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <color key="textColor" red="0.2879379735" green="0.20002937109999999" blue="0.22434486870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -162,6 +162,9 @@
                                     </preferredSymbolConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" pointSize="49"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7T-3B-Tjh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
