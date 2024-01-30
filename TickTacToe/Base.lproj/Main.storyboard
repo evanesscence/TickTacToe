@@ -48,7 +48,6 @@
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
                                                 <color key="tintColor" red="0.87900489270000004" green="0.6106412215" blue="0.68487054650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title=""/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NYq-fh-epM"/>
                                                 </connections>
@@ -99,7 +98,6 @@
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
                                                 <color key="tintColor" red="0.87900489270000004" green="0.6106412215" blue="0.68487054650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title=""/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eGg-Ks-kSa"/>
                                                 </connections>
